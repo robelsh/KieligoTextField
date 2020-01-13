@@ -23,8 +23,8 @@ s.dependency 'RxCocoa'
 
 s.source_files = "KieligoTextField/**/*.{swift}"
 
-s.resources = "KieligoTextField/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-s.resource_bundles = { 'KieligoTextField' => ['Pod/**/*.xib'] }
+s.resources = "KieligoTextField/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resource_bundles = { 'KieligoTextField' => ['KieligoTextField/*.xib'] }
 
 s.swift_version = "5"
 
